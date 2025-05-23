@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "lint",
+			"path": "lib/chainlink/contracts/release/ccip",
+			"problemMatcher": [],
+			"label": "npm: lint - lib/chainlink/contracts/release/ccip",
+			"detail": "eslint --ext js,ts ."
+		}
+	]
+}
